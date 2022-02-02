@@ -1,0 +1,8 @@
+Welcome to Coding Arena.
+Coding Arena is basically a project created with python.
+The most common practice or target for any coding language is printing as output.
+The most popular coding languages are C, Java, Python, etc. 
+Every language is different from one another also. 
+In this project, my target is to establish a python code,
+where users can insert input as a string and get their desired code as output not only the traditional output.
+Thus a lot of time can be saved and easy to get printing code for multiple programming languages.

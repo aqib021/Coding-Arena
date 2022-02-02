@@ -1,0 +1,51 @@
+# Complete Project code given below
+
+print("Welcome to the Coding Arena\n")
+
+val = input("Please type what do you want to print: ")
+
+print("Now please write your preferred language in capital letter:")
+A = "C" 
+B = "JAVA" 
+C = "PYTHON"
+D = "PHP"
+E = "C++"
+F = "JAVASCRIPT"
+G = "C#"
+H = "GO"
+I = "R"
+J = "FORTRAN"
+language = input()
+
+if (language == A):
+    print("Here is your C code:")
+    print("#include <stdio.h>\nint main()\n{\n    printf(\"",val,"\");\n    return 0;\n}")
+elif (language == B):
+    print("Here is your Java code:")
+    print("public class Mycode {\n    public static void main(String[] args) {\n        System.out.println(\"",val,"\");\n    }\n    }")
+elif (language == C):
+    print("Here is your Python code:")
+    print("print(\"",val,"\")\n")
+elif (language == D):
+    print("Here is your PHP code:")
+    print("<?php\necho \"",val,"\";\n?>")
+elif (language == E):
+    print("Here is your C++ code:")
+    print("#include <iostream>\nint main()\n{\n    std::cout << \"",val,"\";\n    return 0;\n}")
+elif (language == F):
+    print("Here is your Javascript code:")
+    print("console.log(\"",val,"\");")
+elif (language == G):
+    print("Here is your C# code:")
+    print("using System;\npublic class MyCode {\n    public static void Main(string[] args) {\n        Console.WriteLine(\"",val,"\");\n    }\n}")
+elif (language == H):
+    print("Here is your GO code:")
+    print("package main\nimport \"fmt\"\n \nfunc main() {\n   fmt.Println(\"",val,"\")\n}")
+elif (language == I):
+    print("Here is your R code:")
+    print("print(\"",val,"\")")
+elif (language == J):
+    print("Here is your Fortran code:")
+    print("program New\nPrint *, \"",val,"\"\nEnd program New")
+else:
+    print("May be your preferred language is not updated yet. Please go to the link to fill out this form:\n https://cutt.ly/pOnqYtR")
